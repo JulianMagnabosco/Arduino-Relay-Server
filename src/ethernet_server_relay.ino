@@ -1,6 +1,8 @@
 #include <SPI.h>
 #include <Ethernet.h>
 
+
+
 byte mac[] = { 0xDE, 0xAD, 0xBE, 0xEF, 0xFE, 0xED };   //Direccion Fisica MAC
 byte ip[] = { 192, 168, 2, 240 };                       // IP Local que usted debe configurar
 byte gateway[] = { 192, 168, 2, 2 };                   // Puerta de enlace
@@ -8,10 +10,11 @@ byte subnet[] = { 255, 255, 255, 0 };                  //Mascara de Sub Red
 EthernetServer server(80);                             //Se usa el puerto 80 del servidor
 String HTTP_req;
 
+
+
 bool pins[] = {0, 0, 0, 0, 0, 0, 0, 0};
 int sizeVar = 8;
 void setup() {
-//  delay(200);
 
   Serial.begin(9600);  // Inicializa el puerto serial
   while (!Serial) {   // Espera a que el puerto serial sea conectado, Solo necesario para el Leonardo
