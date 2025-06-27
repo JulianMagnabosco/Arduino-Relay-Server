@@ -11,6 +11,6 @@ Este es un proyecto para controlar una zapatilla mediante un Arduino con la plac
 
 ![Alt text](docs/dibujo.png "dibujo")
 
-![Alt text](docs/abierto.png "abierto")
+![Alt text](docs/abierto.jpg "abierto")
 
-![Alt text](docs/frente.png "frente")
+![Alt text](docs/frente.jpg "frente")
